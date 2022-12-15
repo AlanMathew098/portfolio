@@ -4,6 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
 :root {
   --bs-blue: #1717e5;
   --bs-indigo: #6610f2;
@@ -75,7 +76,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -591,8 +593,9 @@ progress {
 
 .col-auto {
   flex: 0 0 auto;
-  width: auto; }
-
+  width: auto; 
+    }
+  
 .col-1 {
   flex: 0 0 auto;
   width: 8.33333%; }
@@ -640,7 +643,7 @@ progress {
 .col-12 {
   flex: 0 0 auto;
   width: 100%; }
-
+  
 .offset-1 {
   margin-left: 8.33333%; }
 
