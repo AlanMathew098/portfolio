@@ -9944,5 +9944,13 @@ img {
         width: 100%;
         }
     }
-    
-
+.txt{
+  font-size: 93px;
+  font-weight: bold;
+}    
+@media only screen and (max-width: 768px) {
+  .txt{
+    font-size: 53px;
+    font-weight: bold;
+  }   
+}
